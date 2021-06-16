@@ -26,7 +26,7 @@ func main() {
 	stack1.push(230)
 
 	fmt.Println(stack1)
-	stack1.pop()
+	remove := stack1.pop()
 
 	fmt.Print(stack1, "\n")
 	mystack := stack1.pop()
